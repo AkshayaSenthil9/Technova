@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuickCart Customer Support</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="brand">QuickCart <span>Support</span></div><p>Friendly help, whenever you need it.</p></header>
+<main>
+<section class="welcome"><h1>Hello! How can we help?</h1><p>Choose a topic or enter your question below. This is a student demo with sample order data.</p></section>
+<section class="panel">
+<h2>Support categories</h2>
+<div class="categories">
+<button data-query="Where is my order?">📦 Order status</button>
+<button data-query="My delivery is delayed">🚚 Delivery delay</button>
+<button data-query="How can I return a product?">↩️ Return request</button>
+<button data-query="When will I receive my refund?">💳 Refund status</button>
+<button data-query="I received the wrong product">🛍️ Wrong item</button>
+<button data-query="How can I contact human support?">🙋 Human support</button>
+</div>
+<label for="query">Type your question</label>
+<textarea id="query" rows="3" placeholder="Example: Where is my order?"></textarea>
+<div class="row"><input id="orderId" placeholder="Demo order ID (e.g. QC123)"><button id="send">Get help</button></div>
+<div id="response" class="response" aria-live="polite">Your helpful response will appear here.</div>
+</section>
+<section class="panel small"><h2>Demo note</h2><p>Use sample ID <b>QC123</b> to see a shipped order. Use <b>QC456</b> to see a delayed order. No real customer or payment data is collected.</p></section>
+</main>
+<footer>QuickCart Support Demo · Student Skill Development Activity</footer>
+<script src="script.js"></script>
+</body></html>
